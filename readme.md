@@ -1,0 +1,5 @@
+For this coding example, you’re going to create a simple GitHub issue browser. To get the list of issues for a GitHub repo, you can simply use GET on the following URL: https://api.github.com/repos/walmartlabs/thorax/issues In this example, the organization is “walmartlabs” and the repo is “thorax”. These values can be hard-coded into your app.
+
+When the app starts up, it should display the list of issues with some basic information (title, issue #, state). Display the list of issues 10 at a time by implementing pagination on the issue list. When an issue is clicked, it should go to another screen that displays more information on the issue (previous details plus owner, created time, body, etc.…).
+
+You’re free to use any 3rd party libraries you prefer. Don’t bother handling fringe cases (e.g. we’re not going to take the code and point it to a repo of 2,000,000 issues).
